@@ -1,0 +1,82 @@
+{
+  "dataset_size": 2600,
+  "num_features": 1796,
+  "train_size": 2080,
+  "test_size": 520,
+  "cv_f1_mean": 0.9605470455471394,
+  "cv_f1_std": 0.014782889577346414,
+  "results": {
+    "Naive Bayes": {
+      "accuracy": 0.9711538461538461,
+      "precision": 0.9779735682819384,
+      "recall": 0.9568965517241379,
+      "f1": 0.9673202614379085
+    },
+    "Logistic Regression": {
+      "accuracy": 0.9711538461538461,
+      "precision": 0.9779735682819384,
+      "recall": 0.9568965517241379,
+      "f1": 0.9673202614379085
+    },
+    "Linear SVM": {
+      "accuracy": 0.9711538461538461,
+      "precision": 0.9779735682819384,
+      "recall": 0.9568965517241379,
+      "f1": 0.9673202614379085
+    },
+    "Decision Tree": {
+      "accuracy": 0.9538461538461539,
+      "precision": 0.9482758620689655,
+      "recall": 0.9482758620689655,
+      "f1": 0.9482758620689655
+    }
+  },
+  "confusion_matrices": {
+    "Naive Bayes": [
+      [
+        283,
+        5
+      ],
+      [
+        10,
+        222
+      ]
+    ],
+    "Logistic Regression": [
+      [
+        283,
+        5
+      ],
+      [
+        10,
+        222
+      ]
+    ],
+    "Linear SVM": [
+      [
+        283,
+        5
+      ],
+      [
+        10,
+        222
+      ]
+    ],
+    "Decision Tree": [
+      [
+        276,
+        12
+      ],
+      [
+        12,
+        220
+      ]
+    ]
+  },
+  "roc_auc": {
+    "Naive Bayes": 0.9701269157088123,
+    "Logistic Regression": 0.9667444923371648,
+    "Linear SVM": 0.9671635536398467,
+    "Decision Tree": 0.9408524904214559
+  }
+}

@@ -2,6 +2,22 @@
 
 Projects I worked on during my Computer Science degree at Beirut Arab University.
 
+## Phishing Email Detection (Machine Learning)
+
+Built a classifier that detects phishing emails targeting bank customers.
+I generated a dataset of 2,600 banking emails, cleaned the text, and used TF-IDF
+plus extra features like number of links, urgent wording, and spelling mistakes.
+I compared Naive Bayes with Logistic Regression, Linear SVM, and Decision Tree.
+Naive Bayes reached 97.1% accuracy, had the best ROC AUC (0.97), and was the
+fastest to train.
+
+Built with Python, scikit-learn, pandas and matplotlib.
+
+Code, data and charts: [phishing-email-detection](phishing-email-detection)
+Report: [PDF](reports/ML%20Project%20-%20Phishing%20Detection%20-%20Hadi%20Muselmani.pdf)
+
+![Model comparison](phishing-email-detection/figures/model_comparison.png)
+
 ## SAWTAK (Senior Project)
 
 Sawtak (صوتك, "Your Voice") is a Lebanese social platform meant to make online
@@ -13,24 +29,11 @@ against trusted sources and gives an evidence score from 0 to 5.
 Privacy was a core rule: the platform never stores or guesses a user's religion,
 sect, or political affiliation.
 
-This first phase covered requirements, a survey of 88 Lebanese users, feasibility
+This first phase covered requirements, a survey of 88 Lebanese users, a feasibility
 study, UI prototypes, and full system design. Team project with 4 other students.
 Planned stack: React, Node.js, Supabase / PostgreSQL.
 
-Report: SAWTAK senior project .docx
-
-## Phishing Email Detection (Machine Learning)
-
-Built a classifier that detects phishing emails targeting bank customers.
-I created a dataset of 2,600 emails, cleaned the text, and used TF-IDF plus
-extra features like number of links, urgent wording, and spelling mistakes.
-I compared Naive Bayes with Logistic Regression, Linear SVM, and Decision Tree.
-Naive Bayes did best with 97.1% accuracy and 0.97 ROC AUC, and was also the
-fastest to train.
-
-Built with Python and scikit-learn.
-
-Code, report and slides: HadiMuselmani ML PROJECT.zip
+Report: [PDF](reports/SAWTAK%20Senior%20Project%20-%20Hadi%20Muselmani.pdf)
 
 ## Zero-Trust Security on Azure (Cloud Project)
 
@@ -40,7 +43,7 @@ they needed (RBAC), added Conditional Access rules for MFA and location limits,
 used a Managed Identity so an Azure Function could run without stored passwords,
 and wrote KQL queries in Log Analytics to spot suspicious sign-ins.
 
-Report: HadiMuselmani cloud project.docx
+Report: [PDF](reports/Cloud%20Project%20-%20Zero%20Trust%20Azure%20-%20Hadi%20Muselmani.pdf)
 
 ## CPU Scheduling and Banker's Algorithm (Operating Systems)
 
@@ -50,9 +53,9 @@ was 54.25). In the second part I used the Banker's Algorithm on 4 processes and
 3 resource types to calculate the Need matrix and check if the system was in a
 safe state.
 
-Report: Os Project Had Muselmani.docx
+Report: [PDF](reports/OS%20Project%20-%20CPU%20Scheduling%20-%20Hadi%20Muselmani.pdf)
 
 ## Contact
 
 Portfolio: https://hadimuselmani.github.io
-Email: hmuselmani86@gmail.com
+Email: [your email]
