@@ -45,6 +45,30 @@ and wrote KQL queries in Log Analytics to spot suspicious sign-ins.
 
 Report: [PDF](reports/Cloud%20Project%20-%20Zero%20Trust%20Azure%20-%20Hadi%20Muselmani.pdf)
 
+## Automated Cryptanalysis of Classical Ciphers (Computer Security)
+
+A Java program that takes ciphertext and tries to recover the message without
+the key. It detects Caesar ciphers and breaks them by trying every shift and
+scoring the results with common English words. For other text it runs a
+frequency analysis attack for substitution ciphers and tries several column
+keys for transposition ciphers.
+
+Built with Java.
+
+Code: [classical-cipher-cryptanalysis](classical-cipher-cryptanalysis)
+Report: [PDF](reports/Security%20Project%20-%20Classical%20Cipher%20Cryptanalysis%20-%20Hadi%20Muselmani.pdf)
+
+## Student Grade Search & Sort System (Algorithms)
+
+A Java program where you enter students and their scores. It searches the list
+with Linear Search, sorts it with Bubble Sort, searches again with Binary Search,
+and then compares the algorithms by Big-O complexity and real execution time.
+
+Built with Java.
+
+Code: [student-grade-search-sort](student-grade-search-sort)
+Report: [PDF](reports/Algorithms%20Project%20-%20Student%20Grade%20Search%20and%20Sort%20-%20Hadi%20Muselmani.pdf)
+
 ## CPU Scheduling and Banker's Algorithm (Operating Systems)
 
 Simulated FCFS CPU scheduling with 12 processes in an OS simulator, recorded
@@ -58,4 +82,4 @@ Report: [PDF](reports/OS%20Project%20-%20CPU%20Scheduling%20-%20Hadi%20Muselmani
 ## Contact
 
 Portfolio: https://hadimuselmani.github.io
-Email: hmuselmani86@gmail.com
+Email: [your email]
