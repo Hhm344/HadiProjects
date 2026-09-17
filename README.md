@@ -58,6 +58,19 @@ Built with Java.
 Code: [classical-cipher-cryptanalysis](classical-cipher-cryptanalysis)
 Report: [PDF](reports/Security%20Project%20-%20Classical%20Cipher%20Cryptanalysis%20-%20Hadi%20Muselmani.pdf)
 
+## Event Management System (Databases)
+
+A SQL Server database for managing events, built in a team of 3. It has 12 related
+tables covering venues, organizers, sessions, speakers, tickets, payments, and
+sponsors, filled with sample data, plus 20 queries such as revenue per event,
+attendees with pending payments, and events without sponsors. The report includes
+the ER diagram, relational schema, functional dependencies, and relational algebra.
+
+Built with SQL (Microsoft SQL Server).
+
+Code: [event-management-database](event-management-database)
+Report: [PDF](reports/Database%20Project%20-%20Event%20Management%20System%20-%20Hadi%20Muselmani.pdf)
+
 ## Student Grade Search & Sort System (Algorithms)
 
 A Java program where you enter students and their scores. It searches the list
