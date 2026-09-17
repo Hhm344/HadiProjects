@@ -58,4 +58,4 @@ Report: [PDF](reports/OS%20Project%20-%20CPU%20Scheduling%20-%20Hadi%20Muselmani
 ## Contact
 
 Portfolio: https://hadimuselmani.github.io
-Email: [your email]
+Email: hmuselmani86@gmail.com
